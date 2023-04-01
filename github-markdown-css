@@ -1,0 +1,1006 @@
+.confluence-markdown-editor-content {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  color: #24292f;
+  background-color: #ffffff;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.confluence-markdown-editor-content .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.confluence-markdown-editor-content h1:hover .anchor .octicon-link:before,
+.confluence-markdown-editor-content h2:hover .anchor .octicon-link:before,
+.confluence-markdown-editor-content h3:hover .anchor .octicon-link:before,
+.confluence-markdown-editor-content h4:hover .anchor .octicon-link:before,
+.confluence-markdown-editor-content h5:hover .anchor .octicon-link:before,
+.confluence-markdown-editor-content h6:hover .anchor .octicon-link:before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+}
+
+.confluence-markdown-editor-content details,
+.confluence-markdown-editor-content figcaption,
+.confluence-markdown-editor-content figure {
+  display: block;
+}
+
+.confluence-markdown-editor-content summary {
+  display: list-item;
+}
+
+.confluence-markdown-editor-content [hidden] {
+  display: none !important;
+}
+
+.confluence-markdown-editor-content a {
+  background-color: transparent;
+  color: #0969da;
+  text-decoration: none;
+}
+
+.confluence-markdown-editor-content abbr[title] {
+  border-bottom: none;
+  text-decoration: underline dotted;
+}
+
+.confluence-markdown-editor-content b,
+.confluence-markdown-editor-content strong {
+  font-weight: 600;
+}
+
+.confluence-markdown-editor-content dfn {
+  font-style: italic;
+}
+
+.confluence-markdown-editor-content h1 {
+  margin: .67em 0;
+  font-weight: 600;
+  padding-bottom: .3em;
+  font-size: 2em;
+  border-bottom: 1px solid hsla(210,18%,87%,1);
+}
+
+.confluence-markdown-editor-content mark {
+  background-color: #fff8c5;
+  color: #24292f;
+}
+
+.confluence-markdown-editor-content small {
+  font-size: 90%;
+}
+
+.confluence-markdown-editor-content sub,
+.confluence-markdown-editor-content sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.confluence-markdown-editor-content sub {
+  bottom: -0.25em;
+}
+
+.confluence-markdown-editor-content sup {
+  top: -0.5em;
+}
+
+.confluence-markdown-editor-content img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #ffffff;
+}
+
+.confluence-markdown-editor-content code,
+.confluence-markdown-editor-content kbd,
+.confluence-markdown-editor-content pre,
+.confluence-markdown-editor-content samp {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.confluence-markdown-editor-content figure {
+  margin: 1em 40px;
+}
+
+.confluence-markdown-editor-content hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid hsla(210,18%,87%,1);
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #d0d7de;
+  border: 0;
+}
+
+.confluence-markdown-editor-content input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.confluence-markdown-editor-content [type=button],
+.confluence-markdown-editor-content [type=reset],
+.confluence-markdown-editor-content [type=submit] {
+  -webkit-appearance: button;
+}
+
+.confluence-markdown-editor-content [type=checkbox],
+.confluence-markdown-editor-content [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.confluence-markdown-editor-content [type=number]::-webkit-inner-spin-button,
+.confluence-markdown-editor-content [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.confluence-markdown-editor-content [type=search]::-webkit-search-cancel-button,
+.confluence-markdown-editor-content [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.confluence-markdown-editor-content ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54;
+}
+
+.confluence-markdown-editor-content ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+.confluence-markdown-editor-content a:hover {
+  text-decoration: underline;
+}
+
+.confluence-markdown-editor-content ::placeholder {
+  color: #6e7781;
+  opacity: 1;
+}
+
+.confluence-markdown-editor-content hr::before {
+  display: table;
+  content: "";
+}
+
+.confluence-markdown-editor-content hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.confluence-markdown-editor-content table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.confluence-markdown-editor-content td,
+.confluence-markdown-editor-content th {
+  padding: 0;
+}
+
+.confluence-markdown-editor-content details summary {
+  cursor: pointer;
+}
+
+.confluence-markdown-editor-content details:not([open])>*:not(summary) {
+  display: none !important;
+}
+
+.confluence-markdown-editor-content a:focus,
+.confluence-markdown-editor-content [role=button]:focus,
+.confluence-markdown-editor-content input[type=radio]:focus,
+.confluence-markdown-editor-content input[type=checkbox]:focus {
+  outline: 2px solid #0969da;
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.confluence-markdown-editor-content a:focus:not(:focus-visible),
+.confluence-markdown-editor-content [role=button]:focus:not(:focus-visible),
+.confluence-markdown-editor-content input[type=radio]:focus:not(:focus-visible),
+.confluence-markdown-editor-content input[type=checkbox]:focus:not(:focus-visible) {
+  outline: solid 1px transparent;
+}
+
+.confluence-markdown-editor-content a:focus-visible,
+.confluence-markdown-editor-content [role=button]:focus-visible,
+.confluence-markdown-editor-content input[type=radio]:focus-visible,
+.confluence-markdown-editor-content input[type=checkbox]:focus-visible {
+  outline: 2px solid #0969da;
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.confluence-markdown-editor-content a:not([class]):focus,
+.confluence-markdown-editor-content a:not([class]):focus-visible,
+.confluence-markdown-editor-content input[type=radio]:focus,
+.confluence-markdown-editor-content input[type=radio]:focus-visible,
+.confluence-markdown-editor-content input[type=checkbox]:focus,
+.confluence-markdown-editor-content input[type=checkbox]:focus-visible {
+  outline-offset: 0;
+}
+
+.confluence-markdown-editor-content kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  line-height: 10px;
+  color: #24292f;
+  vertical-align: middle;
+  background-color: #f6f8fa;
+  border: solid 1px rgba(175,184,193,0.2);
+  border-bottom-color: rgba(175,184,193,0.2);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 rgba(175,184,193,0.2);
+}
+
+.confluence-markdown-editor-content h1,
+.confluence-markdown-editor-content h2,
+.confluence-markdown-editor-content h3,
+.confluence-markdown-editor-content h4,
+.confluence-markdown-editor-content h5,
+.confluence-markdown-editor-content h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.confluence-markdown-editor-content h2 {
+  font-weight: 600;
+  padding-bottom: .3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid hsla(210,18%,87%,1);
+}
+
+.confluence-markdown-editor-content h3 {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.confluence-markdown-editor-content h4 {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.confluence-markdown-editor-content h5 {
+  font-weight: 600;
+  font-size: .875em;
+}
+
+.confluence-markdown-editor-content h6 {
+  font-weight: 600;
+  font-size: .85em;
+  color: #57606a;
+}
+
+.confluence-markdown-editor-content p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.confluence-markdown-editor-content blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: #57606a;
+  border-left: .25em solid #d0d7de;
+}
+
+.confluence-markdown-editor-content ul,
+.confluence-markdown-editor-content ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.confluence-markdown-editor-content ol ol,
+.confluence-markdown-editor-content ul ol {
+  list-style-type: lower-roman;
+}
+
+.confluence-markdown-editor-content ul ul ol,
+.confluence-markdown-editor-content ul ol ol,
+.confluence-markdown-editor-content ol ul ol,
+.confluence-markdown-editor-content ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.confluence-markdown-editor-content dd {
+  margin-left: 0;
+}
+
+.confluence-markdown-editor-content tt,
+.confluence-markdown-editor-content code,
+.confluence-markdown-editor-content samp {
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+}
+
+.confluence-markdown-editor-content pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+  word-wrap: normal;
+}
+
+.confluence-markdown-editor-content .octicon {
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.confluence-markdown-editor-content input::-webkit-outer-spin-button,
+.confluence-markdown-editor-content input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.confluence-markdown-editor-content::before {
+  display: table;
+  content: "";
+}
+
+.confluence-markdown-editor-content::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.confluence-markdown-editor-content>*:first-child {
+  margin-top: 0 !important;
+}
+
+.confluence-markdown-editor-content>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.confluence-markdown-editor-content a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.confluence-markdown-editor-content .absent {
+  color: #cf222e;
+}
+
+.confluence-markdown-editor-content .anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+.confluence-markdown-editor-content .anchor:focus {
+  outline: none;
+}
+
+.confluence-markdown-editor-content p,
+.confluence-markdown-editor-content blockquote,
+.confluence-markdown-editor-content ul,
+.confluence-markdown-editor-content ol,
+.confluence-markdown-editor-content dl,
+.confluence-markdown-editor-content table,
+.confluence-markdown-editor-content pre,
+.confluence-markdown-editor-content details {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.confluence-markdown-editor-content blockquote>:first-child {
+  margin-top: 0;
+}
+
+.confluence-markdown-editor-content blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.confluence-markdown-editor-content h1 .octicon-link,
+.confluence-markdown-editor-content h2 .octicon-link,
+.confluence-markdown-editor-content h3 .octicon-link,
+.confluence-markdown-editor-content h4 .octicon-link,
+.confluence-markdown-editor-content h5 .octicon-link,
+.confluence-markdown-editor-content h6 .octicon-link {
+  color: #24292f;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.confluence-markdown-editor-content h1:hover .anchor,
+.confluence-markdown-editor-content h2:hover .anchor,
+.confluence-markdown-editor-content h3:hover .anchor,
+.confluence-markdown-editor-content h4:hover .anchor,
+.confluence-markdown-editor-content h5:hover .anchor,
+.confluence-markdown-editor-content h6:hover .anchor {
+  text-decoration: none;
+}
+
+.confluence-markdown-editor-content h1:hover .anchor .octicon-link,
+.confluence-markdown-editor-content h2:hover .anchor .octicon-link,
+.confluence-markdown-editor-content h3:hover .anchor .octicon-link,
+.confluence-markdown-editor-content h4:hover .anchor .octicon-link,
+.confluence-markdown-editor-content h5:hover .anchor .octicon-link,
+.confluence-markdown-editor-content h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.confluence-markdown-editor-content h1 tt,
+.confluence-markdown-editor-content h1 code,
+.confluence-markdown-editor-content h2 tt,
+.confluence-markdown-editor-content h2 code,
+.confluence-markdown-editor-content h3 tt,
+.confluence-markdown-editor-content h3 code,
+.confluence-markdown-editor-content h4 tt,
+.confluence-markdown-editor-content h4 code,
+.confluence-markdown-editor-content h5 tt,
+.confluence-markdown-editor-content h5 code,
+.confluence-markdown-editor-content h6 tt,
+.confluence-markdown-editor-content h6 code {
+  padding: 0 .2em;
+  font-size: inherit;
+}
+
+.confluence-markdown-editor-content summary h1,
+.confluence-markdown-editor-content summary h2,
+.confluence-markdown-editor-content summary h3,
+.confluence-markdown-editor-content summary h4,
+.confluence-markdown-editor-content summary h5,
+.confluence-markdown-editor-content summary h6 {
+  display: inline-block;
+}
+
+.confluence-markdown-editor-content summary h1 .anchor,
+.confluence-markdown-editor-content summary h2 .anchor,
+.confluence-markdown-editor-content summary h3 .anchor,
+.confluence-markdown-editor-content summary h4 .anchor,
+.confluence-markdown-editor-content summary h5 .anchor,
+.confluence-markdown-editor-content summary h6 .anchor {
+  margin-left: -40px;
+}
+
+.confluence-markdown-editor-content summary h1,
+.confluence-markdown-editor-content summary h2 {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.confluence-markdown-editor-content ul.no-list,
+.confluence-markdown-editor-content ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.confluence-markdown-editor-content ol[type=a] {
+  list-style-type: lower-alpha;
+}
+
+.confluence-markdown-editor-content ol[type=A] {
+  list-style-type: upper-alpha;
+}
+
+.confluence-markdown-editor-content ol[type=i] {
+  list-style-type: lower-roman;
+}
+
+.confluence-markdown-editor-content ol[type=I] {
+  list-style-type: upper-roman;
+}
+
+.confluence-markdown-editor-content ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.confluence-markdown-editor-content div>ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.confluence-markdown-editor-content ul ul,
+.confluence-markdown-editor-content ul ol,
+.confluence-markdown-editor-content ol ol,
+.confluence-markdown-editor-content ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.confluence-markdown-editor-content li>p {
+  margin-top: 16px;
+}
+
+.confluence-markdown-editor-content li+li {
+  margin-top: .25em;
+}
+
+.confluence-markdown-editor-content dl {
+  padding: 0;
+}
+
+.confluence-markdown-editor-content dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.confluence-markdown-editor-content dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.confluence-markdown-editor-content table th {
+  font-weight: 600;
+}
+
+.confluence-markdown-editor-content table th,
+.confluence-markdown-editor-content table td {
+  padding: 6px 13px;
+  border: 1px solid #d0d7de;
+}
+
+.confluence-markdown-editor-content table tr {
+  background-color: #ffffff;
+  border-top: 1px solid hsla(210,18%,87%,1);
+}
+
+.confluence-markdown-editor-content table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.confluence-markdown-editor-content table img {
+  background-color: transparent;
+}
+
+.confluence-markdown-editor-content img[align=right] {
+  padding-left: 20px;
+}
+
+.confluence-markdown-editor-content img[align=left] {
+  padding-right: 20px;
+}
+
+.confluence-markdown-editor-content .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+.confluence-markdown-editor-content span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.confluence-markdown-editor-content span.frame>span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid #d0d7de;
+}
+
+.confluence-markdown-editor-content span.frame span img {
+  display: block;
+  float: left;
+}
+
+.confluence-markdown-editor-content span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: #24292f;
+}
+
+.confluence-markdown-editor-content span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.confluence-markdown-editor-content span.align-center>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.confluence-markdown-editor-content span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.confluence-markdown-editor-content span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.confluence-markdown-editor-content span.align-right>span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.confluence-markdown-editor-content span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.confluence-markdown-editor-content span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.confluence-markdown-editor-content span.float-left span {
+  margin: 13px 0 0;
+}
+
+.confluence-markdown-editor-content span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.confluence-markdown-editor-content span.float-right>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.confluence-markdown-editor-content code,
+.confluence-markdown-editor-content tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: rgba(175,184,193,0.2);
+  border-radius: 6px;
+}
+
+.confluence-markdown-editor-content code br,
+.confluence-markdown-editor-content tt br {
+  display: none;
+}
+
+.confluence-markdown-editor-content del code {
+  text-decoration: inherit;
+}
+
+.confluence-markdown-editor-content samp {
+  font-size: 85%;
+}
+
+.confluence-markdown-editor-content pre code {
+  font-size: 100%;
+}
+
+.confluence-markdown-editor-content pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.confluence-markdown-editor-content .highlight {
+  margin-bottom: 16px;
+}
+
+.confluence-markdown-editor-content .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.confluence-markdown-editor-content .highlight pre,
+.confluence-markdown-editor-content pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+}
+
+.confluence-markdown-editor-content pre code,
+.confluence-markdown-editor-content pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.confluence-markdown-editor-content .csv-data td,
+.confluence-markdown-editor-content .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.confluence-markdown-editor-content .csv-data .blob-num {
+  padding: 10px 8px 9px;
+  text-align: right;
+  background: #ffffff;
+  border: 0;
+}
+
+.confluence-markdown-editor-content .csv-data tr {
+  border-top: 0;
+}
+
+.confluence-markdown-editor-content .csv-data th {
+  font-weight: 600;
+  background: #f6f8fa;
+  border-top: 0;
+}
+
+.confluence-markdown-editor-content [data-footnote-ref]::before {
+  content: "[";
+}
+
+.confluence-markdown-editor-content [data-footnote-ref]::after {
+  content: "]";
+}
+
+.confluence-markdown-editor-content .footnotes {
+  font-size: 12px;
+  color: #57606a;
+  border-top: 1px solid #d0d7de;
+}
+
+.confluence-markdown-editor-content .footnotes ol {
+  padding-left: 16px;
+}
+
+.confluence-markdown-editor-content .footnotes ol ul {
+  display: inline-block;
+  padding-left: 16px;
+  margin-top: 16px;
+}
+
+.confluence-markdown-editor-content .footnotes li {
+  position: relative;
+}
+
+.confluence-markdown-editor-content .footnotes li:target::before {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -24px;
+  pointer-events: none;
+  content: "";
+  border: 2px solid #0969da;
+  border-radius: 6px;
+}
+
+.confluence-markdown-editor-content .footnotes li:target {
+  color: #24292f;
+}
+
+.confluence-markdown-editor-content .footnotes .data-footnote-backref g-emoji {
+  font-family: monospace;
+}
+
+.confluence-markdown-editor-content .pl-c {
+  color: #6e7781;
+}
+
+.confluence-markdown-editor-content .pl-c1,
+.confluence-markdown-editor-content .pl-s .pl-v {
+  color: #0550ae;
+}
+
+.confluence-markdown-editor-content .pl-e,
+.confluence-markdown-editor-content .pl-en {
+  color: #8250df;
+}
+
+.confluence-markdown-editor-content .pl-smi,
+.confluence-markdown-editor-content .pl-s .pl-s1 {
+  color: #24292f;
+}
+
+.confluence-markdown-editor-content .pl-ent {
+  color: #116329;
+}
+
+.confluence-markdown-editor-content .pl-k {
+  color: #cf222e;
+}
+
+.confluence-markdown-editor-content .pl-s,
+.confluence-markdown-editor-content .pl-pds,
+.confluence-markdown-editor-content .pl-s .pl-pse .pl-s1,
+.confluence-markdown-editor-content .pl-sr,
+.confluence-markdown-editor-content .pl-sr .pl-cce,
+.confluence-markdown-editor-content .pl-sr .pl-sre,
+.confluence-markdown-editor-content .pl-sr .pl-sra {
+  color: #0a3069;
+}
+
+.confluence-markdown-editor-content .pl-v,
+.confluence-markdown-editor-content .pl-smw {
+  color: #953800;
+}
+
+.confluence-markdown-editor-content .pl-bu {
+  color: #82071e;
+}
+
+.confluence-markdown-editor-content .pl-ii {
+  color: #f6f8fa;
+  background-color: #82071e;
+}
+
+.confluence-markdown-editor-content .pl-c2 {
+  color: #f6f8fa;
+  background-color: #cf222e;
+}
+
+.confluence-markdown-editor-content .pl-sr .pl-cce {
+  font-weight: bold;
+  color: #116329;
+}
+
+.confluence-markdown-editor-content .pl-ml {
+  color: #3b2300;
+}
+
+.confluence-markdown-editor-content .pl-mh,
+.confluence-markdown-editor-content .pl-mh .pl-en,
+.confluence-markdown-editor-content .pl-ms {
+  font-weight: bold;
+  color: #0550ae;
+}
+
+.confluence-markdown-editor-content .pl-mi {
+  font-style: italic;
+  color: #24292f;
+}
+
+.confluence-markdown-editor-content .pl-mb {
+  font-weight: bold;
+  color: #24292f;
+}
+
+.confluence-markdown-editor-content .pl-md {
+  color: #82071e;
+  background-color: #ffebe9;
+}
+
+.confluence-markdown-editor-content .pl-mi1 {
+  color: #116329;
+  background-color: #dafbe1;
+}
+
+.confluence-markdown-editor-content .pl-mc {
+  color: #953800;
+  background-color: #ffd8b5;
+}
+
+.confluence-markdown-editor-content .pl-mi2 {
+  color: #eaeef2;
+  background-color: #0550ae;
+}
+
+.confluence-markdown-editor-content .pl-mdr {
+  font-weight: bold;
+  color: #8250df;
+}
+
+.confluence-markdown-editor-content .pl-ba {
+  color: #57606a;
+}
+
+.confluence-markdown-editor-content .pl-sg {
+  color: #8c959f;
+}
+
+.confluence-markdown-editor-content .pl-corl {
+  text-decoration: underline;
+  color: #0a3069;
+}
+
+.confluence-markdown-editor-content g-emoji {
+  display: inline-block;
+  min-width: 1ch;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1em;
+  font-style: normal !important;
+  font-weight: 400;
+  line-height: 1;
+  vertical-align: -0.075em;
+}
+
+.confluence-markdown-editor-content g-emoji img {
+  width: 1em;
+  height: 1em;
+}
+
+.confluence-markdown-editor-content .task-list-item {
+  list-style-type: none;
+}
+
+.confluence-markdown-editor-content .task-list-item label {
+  font-weight: 400;
+}
+
+.confluence-markdown-editor-content .task-list-item.enabled label {
+  cursor: pointer;
+}
+
+.confluence-markdown-editor-content .task-list-item+.task-list-item {
+  margin-top: 4px;
+}
+
+.confluence-markdown-editor-content .task-list-item .handle {
+  display: none;
+}
+
+.confluence-markdown-editor-content .task-list-item-checkbox {
+  margin: 0 .2em .25em -1.4em;
+  vertical-align: middle;
+}
+
+.confluence-markdown-editor-content .contains-task-list:dir(rtl) .task-list-item-checkbox {
+  margin: 0 -1.6em .25em .2em;
+}
+
+.confluence-markdown-editor-content .contains-task-list {
+  position: relative;
+}
+
+.confluence-markdown-editor-content .contains-task-list:hover .task-list-item-convert-container,
+.confluence-markdown-editor-content .contains-task-list:focus-within .task-list-item-convert-container {
+  display: block;
+  width: auto;
+  height: 24px;
+  overflow: visible;
+  clip: auto;
+}
+
+.confluence-markdown-editor-content ::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
